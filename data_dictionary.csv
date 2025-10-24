@@ -1,0 +1,23 @@
+Field Name,Data Type,Description,Example Value
+Date,object,Date,4/13/2021
+Cow_ID,object,Cow ID,COW_0305
+Cow_Group,object,Cow Group,Dry
+Lactation_Stage,object,Lactation Stage,Late
+Body_Condition_Score,float64,Body Condition Score,2.85
+Health_Flag,int64,Health Flag,0
+Milk_Yield_kg,float64,Milk Yield kg,15.96
+Milk_Fat_%,float64,Milk Fat %,4.24
+Milk_Protein_%,float64,Milk Protein %,2.85
+SCC,int64,SCC,172964
+Feed_CornSilage_kg,float64,Feed CornSilage kg,29.4
+Feed_Alfalfa_kg,float64,Feed Alfalfa kg,12.1
+Feed_Soymeal_kg,float64,Feed Soymeal kg,3.2
+Feed_Minerals_kg,float64,Feed Minerals kg,0.34
+Feed_Cost_USD,float64,Feed Cost USD,3.25
+Vet_Cost_USD,float64,Vet Cost USD,0
+Temperature_C,float64,Temperature C,16.4
+Humidity_%,float64,Humidity %,46.1
+Precipitation_mm,float64,Precipitation mm,1.9
+Soil_Moisture_%,float64,Soil Moisture %,58.1
+Feed_to_Yield_Ratio,float64,Feed to Yield Ratio,2.822
+Sustainability_Index,float64,Sustainability Index,78.04

@@ -1,0 +1,49 @@
+Attribute,Details
+Dataset Shape,"Rows: 100000, Columns: 22"
+Missing Values,
+Date,0
+Cow_ID,0
+Cow_Group,0
+Lactation_Stage,0
+Body_Condition_Score,5033
+Health_Flag,0
+Milk_Yield_kg,5052
+Milk_Fat_%,0
+Milk_Protein_%,0
+SCC,0
+Feed_CornSilage_kg,0
+Feed_Alfalfa_kg,0
+Feed_Soymeal_kg,0
+Feed_Minerals_kg,0
+Feed_Cost_USD,0
+Vet_Cost_USD,0
+Temperature_C,0
+Humidity_%,0
+Precipitation_mm,0
+Soil_Moisture_%,0
+Feed_to_Yield_Ratio,0
+Sustainability_Index,0
+Numeric Column Statistics,
+Body_Condition_Score,"Mean: 2.998502532458644, Median: 3.0, Min: 1.0, Max: 5.0"
+Health_Flag,"Mean: 0.09948, Median: 0.0, Min: 0, Max: 1"
+Milk_Yield_kg,"Mean: 14.09344862451026, Median: 14.14, Min: 5.0, Max: 28.53"
+Milk_Fat_%,"Mean: 3.7972399000000006, Median: 3.8, Min: 2.58, Max: 5.09"
+Milk_Protein_%,"Mean: 3.2001314, Median: 3.2, Min: 2.32, Max: 4.07"
+SCC,"Mean: 200021.94426, Median: 199868.0, Min: -16884, Max: 400279"
+Feed_CornSilage_kg,"Mean: 25.00164, Median: 25.0, Min: 5.4, Max: 44.4"
+Feed_Alfalfa_kg,"Mean: 9.987869, Median: 10.0, Min: -3.8, Max: 23.8"
+Feed_Soymeal_kg,"Mean: 2.992905, Median: 3.0, Min: -1.0, Max: 7.1"
+Feed_Minerals_kg,"Mean: 0.4999625, Median: 0.5, Min: -0.43, Max: 1.42"
+Feed_Cost_USD,"Mean: 2.8977904999999997, Median: 2.9, Min: 1.2, Max: 4.73"
+Vet_Cost_USD,"Mean: 2.7633259999999997, Median: 0.0, Min: 0.0, Max: 49.99"
+Temperature_C,"Mean: 17.165722000000002, Median: 17.2, Min: -34.0, Max: 57.1"
+Humidity_%,"Mean: 65.043182, Median: 65.0, Min: 40.0, Max: 90.0"
+Precipitation_mm,"Mean: 2.003142, Median: 1.4, Min: 0.0, Max: 23.7"
+Soil_Moisture_%,"Mean: 40.04562000000001, Median: 40.1, Min: 20.0, Max: 60.0"
+Feed_to_Yield_Ratio,"Mean: 2.8210242200000004, Median: 2.716, Min: 1.467, Max: 8.416"
+Sustainability_Index,"Mean: 71.7900399, Median: 72.4, Min: 13.88, Max: 96.0"
+Categorical Column Top 5 Values,
+Date,"4/13/2021, 2/21/2021, 4/3/2021, 1/15/2021, 4/17/2021"
+Cow_ID,"COW_0305, COW_0748, COW_0165, COW_0217, COW_0364"
+Cow_Group,"Dry, Fresh, Heifer, Late Lactation"
+Lactation_Stage,"Late, Mid, Early"
