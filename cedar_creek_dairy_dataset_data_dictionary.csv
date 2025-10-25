@@ -1,27 +1,27 @@
-Column Name,Data Type,Description
-Cow_ID,object,Unique identifier for each cow
-Group,object,"Cow group classification (Fresh, Late Lactation, Dry, Heifer)"
-Lactation_Stage,int64,Number of days in milk or stage of lactation
-Body_Condition_Score,float64,Cow body condition score on a scale of 1 to 5
-Health_Status,object,"Health condition of the cow (e.g., Healthy, Mastitis, Lameness, Metabolic Disorder)"
-Treatment_Flag,object,Indicates if the cow received treatment (Yes/No)
-Corn_Silage_kg,float64,Daily intake of corn silage in kilograms
-Alfalfa_kg,float64,Daily intake of alfalfa in kilograms
-Soymeal_kg,float64,Daily intake of soymeal in kilograms
-Minerals_kg,float64,Daily intake of minerals in kilograms
-Feed_Cost_USD,float64,Daily feed cost per cow in USD
-Milk_Yield_Liters,float64,Daily milk yield in liters
-Milk_Fat_%,float64,Percentage of milk fat content
-Milk_Protein_%,float64,Percentage of milk protein content
-Somatic_Cell_Count,int64,Somatic cell count in milk (indicator of udder health)
-Temperature_F,float64,Ambient temperature in Fahrenheit
-Humidity_%,float64,Relative humidity percentage
-Precipitation_mm,float64,Daily precipitation in millimeters
-Soil_Moisture_%,float64,Soil moisture percentage
-Veterinary_Cost_USD,float64,Daily veterinary cost per cow in USD
-Fuel_Cost_USD,float64,Daily fuel cost per cow in USD
-Nitrogen_Runoff_kg,float64,Estimated nitrogen runoff in kilograms
-Feed_Waste_kg,float64,Amount of feed wasted in kilograms
-Feed_to_Yield_Ratio,float64,Ratio of feed consumed to milk yield
-Health_Maintenance_Index,int64,Indicator of cow health maintenance (binary or index)
-Sustainability_Index,float64,Composite score representing sustainability performance
+Column Name,Data Type,Description,Example
+Cow_ID,object,Unique identifier for each cow,COW_00001
+Group,object,"Cow group classification (Fresh, Late Lactation, Dry, Heifer)",Dry
+Lactation_Stage,int64,Number of days in milk or stage of lactation,32
+Body_Condition_Score,float64,Cow body condition score on a scale of 1 to 5,2.4
+Health_Status,object,"Health condition of the cow (e.g., Healthy, Mastitis, Lameness, Metabolic Disorder)",Healthy
+Treatment_Flag,object,Indicates if the cow received treatment (Yes/No),No
+Corn_Silage_kg,float64,Daily intake of corn silage in kilograms,16.81
+Alfalfa_kg,float64,Daily intake of alfalfa in kilograms,14.43
+Soymeal_kg,float64,Daily intake of soymeal in kilograms,2.65
+Minerals_kg,float64,Daily intake of minerals in kilograms,0.13
+Feed_Cost_USD,float64,Daily feed cost per cow in USD,7.82
+Milk_Yield_Liters,float64,Daily milk yield in liters,43.02
+Milk_Fat_%,float64,Percentage of milk fat content,3.04
+Milk_Protein_%,float64,Percentage of milk protein content,2.89
+Somatic_Cell_Count,int64,Somatic cell count in milk (indicator of udder health),219848
+Temperature_F,float64,Ambient temperature in Fahrenheit,84.1
+Humidity_%,float64,Relative humidity percentage,86.4
+Precipitation_mm,float64,Daily precipitation in millimeters,16.2
+Soil_Moisture_%,float64,Soil moisture percentage,19.3
+Veterinary_Cost_USD,float64,Daily veterinary cost per cow in USD,0.99
+Fuel_Cost_USD,float64,Daily fuel cost per cow in USD,2.89
+Nitrogen_Runoff_kg,float64,Estimated nitrogen runoff in kilograms,1.05
+Feed_Waste_kg,float64,Amount of feed wasted in kilograms,1.86
+Feed_to_Yield_Ratio,float64,Ratio of feed consumed to milk yield,0.791
+Health_Maintenance_Index,int64,Indicator of cow health maintenance (binary or index),1
+Sustainability_Index,float64,Composite score representing sustainability performance,73.22
